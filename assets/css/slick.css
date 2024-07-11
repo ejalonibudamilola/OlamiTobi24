@@ -1,0 +1,255 @@
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+.logo-img{
+    width:60%;
+}
+
+.main-area{
+    background-image: url("assets/img/to2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+
+.slider-height{
+    background-image: url("assets/img/to2.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 50vh;
+}
+
+@media screen and (max-width:767px){
+    .logo-img{
+        width:20% !important;
+    }
+    
+    .slider-area .hero__caption .circle-caption span{
+        font-size: 12px !important;
+    }
+    .slider-area .hero__caption .circle-caption h1{
+        font-size: 14px !important;
+    }
+
+    .slider-area .hero__caption .circle-caption{
+        padding-left: 10px !important;
+    }
+
+    .slider-area .hero__caption .circle-caption p{
+        font-size: 12px !important;
+    }
+
+    .main-area{
+        background-image: url("assets/img/to.jpg") !important;
+        background-size: cover !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+height: 50vh !important;
+   
+}
+    }
+
+    /* .hero{
+        background-image: url('assets/img/to.jpg') !important;
+    } */
+
+
+.main-header .main-menu ul li a{
+    color: #840049 !important
+}
+
+.Our-story-area .story-caption h3{
+    color: #840049 !important
+}
+
+.section-tittle h2{
+    color: #840049 !important
+}
+
+.btn::before{
+    background-color: #ac467e !important;
+}
+
+.btn{
+    background-color: #840049 !important;
+}
+
+.service-area .singl-services .bottom-caption span{
+    color: #ac467e !important;
+}
+
+#scrollUp{
+    background-color: #840049 !important;
+
+}
+
+.services-img img{
+    width: 257px !important;
+    height: 257px !important;
+    object-fit: cover;
+}
+
+.account{
+    background-color: #fefcfa;
+}
+
+.footer-bg{
+    background-color: #fff !important;
+}
+
+.foot-note{
+    position:  relative !important;
+}
+
+.foot-note::before {
+    position: absolute !important;
+    content: "";
+    width: 60px;
+    height: 2px;
+    bottom: 11px;
+    left: calc(50% - 80px);
+    background: #ac467e;
+}
+
+.foot-note::after {
+    position: absolute !important;
+    content: "";
+    width: 60px;
+    height: 2px;
+    bottom: 11px;
+    right: calc(50% - 80px);
+    background: #ac467e;
+}
+
+.ti-heart{
+    color: #ac467e !important;
+}
+
+.foot-note h1{
+    color: #840049;
+}
+
+.name{
+    color: #ac467e;
+}

@@ -159,6 +159,13 @@ height: 50vh;
     .slider-area .hero__caption .circle-caption p{
         font-size: 12px !important;
     }
+    .slider-area .hero__caption .circle-caption {
+        margin-top: 80px !important;
+    }
+
+    .slider-area .hero__caption::before{
+        margin-top: 80px;
+    }
 
     .main-area{
         background-image: url("assets/img/to.jpg") !important;
@@ -170,9 +177,6 @@ height: 50vh !important;
 }
     }
 
-    /* .hero{
-        background-image: url('assets/img/to.jpg') !important;
-    } */
 
 
 .main-header .main-menu ul li a{

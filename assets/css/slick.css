@@ -274,3 +274,7 @@ height: 50vh !important;
 .service-area .singl-services::before{
     background: white !important;
 }
+
+.bank{
+    font-weight: 700 !important;
+}

@@ -1,4 +1,8 @@
 /* Slider */
+body{
+    background: transparent !important;
+    color: transparent !important;
+}
 .slick-slider
 {
     position: relative;
@@ -284,4 +288,9 @@ height: 50vh !important;
     padding: 100px 70px 100px 70px;
     box-shadow: 0px 0px 86px 0px rgba(0,0,0,0.06);
     position: relative;
+}
+
+.text-color p{
+    color: #840049 !important
+
 }

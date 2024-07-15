@@ -270,3 +270,7 @@ height: 50vh !important;
     font-style: italic;
     font-weight: bold;
 }
+
+.service-area .singl-services::before{
+    background: white !important;
+}

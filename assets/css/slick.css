@@ -257,3 +257,16 @@ height: 50vh !important;
 .name{
     color: #ac467e;
 }
+
+.Our-story-area .story-caption{
+    padding-top: 0 !important;
+}
+
+.Our-story-area .story-caption h3{
+    margin-bottom: 10px !important;
+}
+
+.note-text{
+    font-style: italic;
+    font-weight: bold;
+}
